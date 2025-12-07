@@ -1,0 +1,75 @@
+## Build artifacts
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+
+## Visual Studio / VS Code
+.vscode/
+.vs/
+*.user
+*.suo
+
+## .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nuget.props
+*.nuget.targets
+
+## Entity Framework Migrations
+**/Migrations/
+
+## Resharper / Rider
+.idea/
+*.sln.iml
+
+## OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+## Logs
+*.log
+logs/
+LogFiles/
+
+## Environment files
+*.env
+*.env.local
+*.env.development
+*.env.production
+
+## User secrets
+**/secrets.json
+
+## Docker
+docker-compose.override.yml
+**/.dockerignore
+
+## Publish output
+publish/
+*.pubxml
+*.publishsettings
+
+# Ignore all test results, caches, and assembly metadata
+/tests/FraudEngine.Tests/bin/
+**/*.Tests.assets.cache
+**/*.Assembly*
+**/*.AssemblyInfo.*
+**/*.AssemblyAttributes.*
+**/*.AssemblyName.cache
+**/TestResults/
+
+
+## Cache
+.nuget/
+.packages/
+.cache/
+temp/
+.tmp/
